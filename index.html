@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  </head>
+  <body>
+   <a-scene inspector>
+      
+     <a-sphere position="0 1.25 -5" radius="1.25" color="pink"  src="./images/3.jpg" easing="linear">
+     <a-animation attribute="rotation" repeat="indefinite" to="100 150 180">
+      </a-animation> 
+      </a-sphere> 
+      
+      
+
+      <a-torus position="0 1.25 -5" radius="1.50" color="blue">
+         <a-animation attribue="position" to="360 250 290" repeat="indefinite"></a-animation>
+      </a-torus>
+      <a-torus position="0 1.25 -5" radius="2" color="red">
+         <a-animation attribue="position" to="300 200 300" repeat="indefinite"></a-animation>
+      </a-torus>
+      <a-torus position="0 1.25 -5" radius="2.5" color="purple">
+        <a-animation attribue="position" to="360 300 360" repeat="indefinite">
+        </a-animation>
+      </a-torus>
+       
+     
+  
+    
+     
+     
+      <a-sky  src="./images/7.jpg"></a-sky>
+     
+    </a-scene>
+  </body>
+</html>
